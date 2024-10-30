@@ -7,6 +7,7 @@ public class CDiraction {
             int angle = scanner.nextInt();
             angle = (angle % 360 + 360) % 360;
 
+
             String direction;
             if (angle < 23 || angle >= 338) {
                 direction = "N";
